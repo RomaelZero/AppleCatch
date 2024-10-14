@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+canvas{
+    background: url("./images/bigbg.png");
+    background-size: contain;  /* This ensures the image fits perfectly without distortion */
+}
+
+.startup_menu{
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    background: aqua;
+    align-self: center;
+}
+
+.startup_menu h1{
+    text-align: center;
+    margin-top: 200px; ;
+}
+
+.startup_menu h1:hover{
+ color: blue;
+}
+
+.endScreen_menu{
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    background:red;
+    align-self: center;
+    z-index: 2;
+}
+
+
+.endScreen_menu{
+    text-align: center;
+}
+
+.endScreen_menu .restartBtn:hover{
+    color:aliceblue;
+}
